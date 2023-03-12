@@ -1,0 +1,140 @@
+body{
+    margin: 0%;
+    background-color: #f3f9fe;
+}
+main{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+    color:#1b282a;
+    display: flex;
+    justify-content: center;
+}
+.underline{
+    height: 2px;
+    background-color: #68b0d3;
+    width: 150px;
+    margin: auto;
+}
+.reviews{
+    margin-top: 20px;
+    width: 400px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow:2px 2px 2px 2px #f2f1f1;
+}
+.img-container{
+    width: 220px;
+    height: 220px;
+    margin: auto;
+}
+.blue-bg{
+    width: 200px;
+    height: 200px;
+    background-color: #68b0d3;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 15px;
+    border-radius: 100%;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    margin-top: 25px;
+    border-radius: 100%;
+
+}
+.blue-circle{
+    width: 40px;
+    height: 40px;
+    background-color: #68b0d3;
+    margin-left: 15px;
+    margin-top: 40px;
+    position: absolute;
+    border-radius: 100%;
+}
+h2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:#ffffff;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin-top: 12px;
+}
+#author{
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+    color:#1b282a;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin-top: 15px;
+}
+#job{
+    color: #68b0d3;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    margin-top: 0px;
+}
+#info{
+    width: 300px;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    color: #3f5457;
+    margin: auto;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    
+
+}
+.prev-btn{
+    padding: 20px;
+    color: #68b0d3;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+.prev-btn:hover{
+    color: #27749a;
+}
+.next-btn{
+    padding: 20px;
+    color: #68b0d3;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+.next-btn:hover{
+    color: #27749a;
+}
+.random-btn{
+    border: #68b0d3 2px solid;
+    border-radius: 5px;
+    background-color: #cfe4ef;
+    color: #68b0d3;
+    height: 25px;
+    cursor: pointer;
+}
+.random-btn:hover{
+    border: #27749a 2px solid;
+    color: #27749a;
+    background-color: #92b7cb;
+
+    
+}
+.rand-btn-div{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
